@@ -1,0 +1,95 @@
+.login-page{
+  width: 100%;
+  height: 100%;
+  background-color: #3D3E48;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo{
+  width: 140px;
+  height: 40px;
+  margin: 70px 0 60px 0;
+}
+.page-title{
+  font-size: 24px;
+  color: #fff;
+}
+.page-description{
+  font-size: 14px;
+  color: #B1B1B5;
+  margin: 20px 0 37px 0;
+}
+.page-mainer{
+  width: 360px;
+  height: 345px;
+  border-radius: 4px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.tel-num,.passw{
+  width: 310px;
+  height: 40px;
+  border: 1px solid #E4E4E4;
+  font-size: 14px;
+  color: #A9A9A9;
+  background-color: #FCFCFC;
+  padding-left: 11px;
+}
+.tel-num{
+  margin: 25px 0 20px 0;
+}
+.login-info{
+  width: 309px;
+  display: flex;
+  justify-content: space-between;
+  margin: 76px 0 25px 0;
+}
+.tips{
+  position: absolute;
+  top: 97px;
+  right: 34px;
+  font-size: 12px;
+  color: #FF1900;
+}
+.remb{
+  font-size: 14px;
+  color: #999999;
+}
+.remb input{
+  width: 15px;
+  height: 15px;
+}
+.forget a{
+  font-size: 14px;
+  color: #3F464B;
+  text-decoration: none;
+}
+.lo-btn{
+  width: 310px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  margin-top: 25px;
+  background-color: #62BD82;
+}
+.lo-btn a{
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+.page-footer{
+  margin-top: 33px;
+  font-size: 14px;
+  display: flex;
+}
+.footer-info-left{
+  color: #F3F5F8;
+}
+.footer-info-right a{
+  color: #62BD82;
+  text-decoration: none;
+}
